@@ -18,11 +18,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-size: 100%;
-  line-height: 1;
-  font-size: 45px;
-  color: red;
-  font-weight: bold;
-  
+  line-height: 1;  
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -82,7 +78,8 @@ input::-ms-clear {
 
 body {
   font-family: "Pragmatica";
-  font-weight: 300;
-  font-size: 18px;
-  color: #1d1d1d;
+  font-weight: 900;
+  font-size: 45px;
+  color: white;
+  background-color: #4c049f;
 }
