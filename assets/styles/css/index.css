@@ -79,7 +79,8 @@ input::-ms-clear {
 body {
   font-family: "Pragmatica";
   font-weight: 900;
-  font-size: 45px;
+  font-size: 130px;
   color: white;
+  align-items: center;
   background-color: #4c049f;
 }
