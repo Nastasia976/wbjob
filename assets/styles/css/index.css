@@ -76,15 +76,48 @@ input::-ms-clear {
   font-weight: 400;
 }
 
-body {
-  font-family: "Pragmatica";
+body{
+    font-family: "Pragmatica";
+}
+main {
   font-weight: 900;
   font-size: 450px;
   color: white;
   background-color: #4c049f;
   display: flex;
   align-items: center;
+  height: 100%;
 }
 .table{
     margin: 0 auto;
+}
+
+.order{
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 10px 10px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.wrap{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(220, 220, 220);
+}
+.some-input,.form-button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: inherit;
+    letter-spacing: 0.8px;
+    margin-top: 30px;
+}
+.some-input{
+    box-shadow: 5px 5px 5px 2px rgba(34, 60, 80, 0.2) inset,
+                5px 5px 5px 2px rgba(34, 60, 80, 0.2);
+}
+.form-button{
+    background-color: rgb(136, 5, 197);
+    color: white;
+    cursor: pointer;
 }
